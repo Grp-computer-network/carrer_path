@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>After 12th computer science carrer</h1>
+    <h1>Best Carrer Opportunities</h1>
+
+    <p>
+        As a 12th Computer Science student, you have plenty of courses to choose from. Here are the top courses in Computer Science that you can pursue after completing the 12th:
+    </p>
+     
+    <div class="select">
+        <form id="formPage">
+            <label for="pageSelect">Choose a Course after Computer Science:</label>
+        <select  id="pageselect" onchange="gopage(this)">
+            <option value="">SELECT AN OPTION</option>
+            <option value="bsc.html">student</option>
+            <option value="">B.Tech in Information Technology</option>
+            <option value="">BCA (Computer Application)</option>
+            <option value="">B.Tech in Computer Science</option>
+            <option value="">B.Sc. IT (Science in Information Technology) </option>
+        </select>
+        <button type="button" onclick="goToPage()">Show Courses Details</button>
+        </form>
+    </div>
+    
+</div>
+
+<script>
+    function goToPage() {
+      var selectedpage = document.getElementById('pageSelect').value;
+      if (selectedpage==="student") {
+        window.location.href ="bsc.html";
+      }
+    }
+</script>
+</body>
+</html>

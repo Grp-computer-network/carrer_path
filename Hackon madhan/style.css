@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    width:100vw;
+    height:300px;
+    background-color: blue;
+}
+
+.container h1{
+    color:white;
+}
+.container p{
+    font-size:20px;
+    padding:10px;
+    color:white;
+}
+
+.select{
+    padding:50px;
+    font-size:20px;
+}
+
+.select label{
+    color:white;
+}
+.select select{
+    height:35px;
+    outline:none;
+}
+
+.select button{
+     height:35px;
+     padding: 5px;
+     border: 1px solid black;
+     border-radius: 5px;
+     font-size:15px;
+}
+
+.select button:active{
+    background-color:teal;
+    color:white;
+}
