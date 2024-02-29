@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+body{
+    min-height: 100vb;
+    background: url('image1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.team-member{
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-color: black;
+}
+header p{
+    font-size: larger;
+}
+.mission p{
+    font-size: larger;
+}
